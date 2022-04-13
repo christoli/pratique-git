@@ -1,0 +1,374 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: url(bg-image.png);
+}
+.menu-bar{
+    padding-top: 40px;
+}
+.logo img{
+    width: 200px;
+    padding-left: 35px;
+}
+.delivery-icon img{
+    width: 50px;
+}
+.menu{
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+}
+.menu a{
+    text-decoration: none;
+    color: #3c2513;
+    margin-right: 50px;
+}
+.menu-bar{
+    display: flex;
+}
+.menu-bar-left,
+.menu-bar-right{
+    width: 50%;
+}
+.delivery-container{
+    margin-right: 35px ;
+    float: right;
+}
+.delivery-icon,
+.delivery-info{
+    display: inline-block;
+}
+.delivery-icon{
+    vertical-align: middle;
+}
+.burger-showcase-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+.burger-showcase-items,
+.burger-showcase-image{
+    width: 50%;
+}
+.burger-showcase-image img{
+    width: 100%;
+}
+.burger-price{
+    display: inline-block;
+}
+.first-item span{
+    color: #3c2513;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px dashed #3c2513;
+}
+.first-item{
+    margin-bottom: 3%;
+}
+.second-item span{
+    color: #3c2513;
+    font-size: 7em;
+    font-weight: bold;
+}
+.third-item span{
+    color: #3c2513;
+    font-size: 3em;
+    font-weight: bold;
+}
+.burger-price span:nth-child(3){
+    display: block;
+    color: white;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+.price-integer-size{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+.price-decimal-size{
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.burger-price{
+    border: 2px dashed #fff;
+    padding: 20px 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.burger-showcase-price{
+    background-color: #be2223;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: -30%;
+    margin-left: 7%;
+}
+.burger-showcase-items{
+    padding-left: 3%;
+}
+.most-popular-burger{
+    width: 40%;
+    margin-right: 3%;
+    position: relative;
+}
+.most-popular-burger img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+.popular-burger span{
+    display: block;
+}
+.try-it-item,
+.chili-try-it-item{
+    color: #fff;
+    font-size: 18px;
+}
+.popular-burger-item{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.popular-burger{
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+.fun-popular-burger,
+.fresh-chili-burger{
+    width: 40%;
+    position: relative;
+}
+.fun-taste-burger,
+.fresh-chili-burger{
+    width: 100%;
+    height: 25%;
+}
+.fun-taste-burger{
+   margin-bottom: 5.4%;
+}
+.most-popular-burger,
+.fun-popular-burger{
+    display: inline-block;
+}
+.fun-taste-burger img,
+.fresh-chili-burger img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.more-fun-item,
+.more-taste-item,
+.fresh-chili-item{
+    color: #fff;
+    font-size: 25px;
+}
+.fun-burger-text-container,
+.chili-text-container{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+.popular-burger-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+.tasty-burger-slogan,
+.burger-description{
+    text-align: center;
+}
+.tasty-burger-text{
+    color: #3c2513;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fbbb23;
+    padding: 10px 25px ;
+}
+.heading{
+    color: #3c2513;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 2%;
+}
+.burger-description-text{
+    padding: 1px 20%;
+}
+.burger-menu-image{
+    width: 100%;
+}
+.burger-menu-image img{
+    width: 100%;
+}
+.burger-name,
+.burger-detail{
+    text-align: center;
+    margin-bottom: 1%;
+}
+.burger-detail{
+    padding: 0 10%;
+}
+.burger-name span{
+    color: #3c2513;
+    font-size: 2em;
+    font-weight: bold;
+}
+.burger-detail span{
+    color: #3c2513;
+    font-size: 18px;
+}
+button.btn-danger{
+    border: none;
+    color: #fff;
+    background-color: #be2223;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3% 5%;
+}
+.order-button{
+    text-align: center;
+    margin-top: 5%;
+}
+.burger-info{
+    margin-top: -16%;
+}
+.burgers-menu-container{
+    display: flex
+}
+.sub-heading,
+.sub-heading span:first-child{
+    color: #3c2513;
+    font-size: 22px;
+}
+
+.article-right-items,
+.article-left-items{
+    width: 50%;
+}
+.article-right-items img{
+    width: 100%;
+    
+}
+.article-left-items{
+    padding: 2% 3%;
+}
+.article-text{
+    font-size: 22px;
+    line-height: 1.5em;
+}
+.yellow-dot{
+    background-color: #ffc045;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.grey-dot{
+    background-color: #dedede;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 50%; 
+}
+.articles-pagination{
+    margin-top: 10%;
+}
+.articles-slide-container{
+    display: flex;
+    justify-content: center;
+    padding: 2.5%;
+    margin: 7% 3% 12% 3%;
+    box-shadow: 5px 5px 50px #e2e2e2;
+}
+.first-reservation-burger-image,
+.second-reservation-burger-image{
+    width: 250px;
+    margin: 5%;
+}
+.first-reservation-burger-image img,
+.second-reservation-burger-image img{
+    width: 100%;
+}
+.ketchup-image{
+    width: 350px;
+}
+.ketchup-image img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+.form-container{
+    width: 950px;
+    padding-top: 3%;
+}
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row-item{
+    width: 50%;
+    display: block;
+    margin-left: 2%;
+}
+.form-row-item input{
+    width: 100%;
+    height: 60px;
+    color: #333;
+    font-size: 1em;
+}
+button.submit-btn{
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #be2223;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 2% 25%;
+}
+.form-row-item.center,
+.reservation-form-title{
+    text-align: center;
+}
+.reservation-form-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.reservation-section{
+    margin-top: 10%;
+    position: relative;
+}
+.first-reservation-burger-image,
+.second-reservation-burger-image{
+    position: absolute;
+}
+.first-reservation-burger-image{
+    top: -300px;
+    left: -150px;
+}
+.second-reservation-burger-image{
+    top: 0px;
+    right: 0px;
+}
+.footer-container{
+    background-image: url(footer-background.png);
+    background-size: cover;
+    margin: 3% 2%;
+}
+.footer-logo img{
+    width: 500px;
+    margin : 70px;
+}
+.info-items{
+    width: 50%;
+    color: #fff;
+}
+
+
+
